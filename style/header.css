@@ -39,8 +39,8 @@ body { font-family: Tahoma, Verdana, 'Microsoft YaHei', 微软雅黑;}
 }
 
 .nav-box ul li a { margin: 0px; color: #7d7d7d;}
-.nav-box ul li a:hover { color: #3366cc;}
 .nav-box ul li a:visited { color: #7d7d7d;}
+.nav-box ul li a:hover { color: #3366cc;}
 .nav-box ul li.last {font-size:12px; padding-top:1px;}
 .nav-box ul li.last a { color:#3366cc;}
 .nav-box .nav-line {
