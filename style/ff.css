@@ -1,17 +1,14 @@
 body { font-family: Tahoma, Verdana, 'Microsoft YaHei', 微软雅黑;}
 .banner {
-	width: 100%;
-	margin: 0 auto;
-	height: 500px;
-	background: url("../images/banner-gm.png") no-repeat top center;
-	background-size: cover;
-	position: relative;
-	overflow: hidden;
+	margin: 0;
+	padding: 0 20%;
+	background: #8fc782;
 }
+.banner div { background-color: white;}
 
 .main { width: 60%; margin: 0 auto; text-align: center}
 
-h1 { font-size: 40px; font-weight: bold}
+h1 { font-size: 50px; font-weight: bold}
 h2 { font-size: 28px;}
 h3 { font-size: 20px;}
 p { font-size: 14px; line-height: 20px}
@@ -19,7 +16,7 @@ p { font-size: 14px; line-height: 20px}
 p.line {
 	width: 100%;
 	margin: 20px 0;
-	border-bottom: 5px solid #527fe0;
+	border-bottom: 5px solid #54a840;
 }
 p.line-left {
 	position: absolute;
@@ -35,25 +32,25 @@ p.line-right {
 	border-bottom: 1px solid gray;
 }
 
-#gm { margin-top: 50px;}
-#gm h1 { color: #2b66db;}
-#gm h2 { color: #6d94e1;}
-#gm h3 { color: #6d94e1;}
-#gm ul { margin: 0px auto; width: 100%; padding: 0;}
-#gm ul li{
+#feifei { margin-top: 50px;}
+#feifei h1 { color: #4cb133;}
+#feifei h2 { color: #9c9c9c;}
+#feifei h3 { color: #54a840;}
+#feifei ul { margin: 0px auto; width: 100%;  padding-bottom: 20px;}
+#feifei ul li{
 	list-style: none;
 	float: left;
 	position: relative;
 	text-align: left;
 }
-#gm li { width: 29.33%; margin: 0; padding: 10px 2%;}
-#gm p { margin-top: 10px;}
+#feifei li { width: 29.33%; margin: 0; padding: 10px 2%;}
+#feifei p { margin-top: 10px;}
 
 .center_ { text-align: center; position: relative; margin: 30px 0; padding: 30px 0;}
-.center_ h1, .center_ h2 { color: #3a6bcc; width: auto; background-color: white;}
+.center_ h1, .center_ h2 { color: #4cb133; width: auto; background-color: white;}
 
-#story h1 { text-align: center; color: #3a6bcc; width: auto; background-color: white}
-#story ul { margin-top: 20px;}
+#story h1 { text-align: center; color: #4cb133; width: auto; background-color: white}
+#story ul { margin-top: 20px; margin-left: auto; margin-right: auto;}
 #story ul li{
 	list-style: none;
 	float: left;
@@ -76,9 +73,8 @@ p.line-right {
 	width: 100%;
 	height: 100%;
 	text-align: center;
-	line-height: 20px;
 	color: white;
-	background-color: #3a6bcc;
+	background-color: #58a545;
 	font-size: 14px;
 }
 #story a:hover>span { top: 0px;}
@@ -89,7 +85,6 @@ p.line-right {
 	-o-transition: all 0.5s ease;
 	transition: all 0.5s ease;
 }
-
 #story span>p {
 	width: 100%;
 	line-height: 20px;
@@ -98,7 +93,7 @@ p.line-right {
 	margin-top: 40px;
 }
 
-#article { padding: 50px 20%; text-align: center; background-color: #3a6bcc; position: relative;}
+#article { padding: 50px 20%; text-align: center; background-color: #58a545; position: relative;}
 #left { width: 150px; float: left; margin: auto 10px;}
 #right { float: left; margin: 0 10px; color: white; text-align: left;}
 #right h2 { clear: both; color: white; margin-bottom: 30px;}

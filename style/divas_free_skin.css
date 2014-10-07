@@ -14,7 +14,7 @@
  * 1. RESET styles for Divas Slider
  *************************************************************************/
  
-body { background: none repeat scroll 0 0 #fff; color: #313131;  font-family: 'Source Sans Pro',Helvetica,Arial,sans-serif; line-height: 1.4;  position: relative; width: 100%; margin: 0;}
+body { background: none repeat scroll 0 0 #fff; color: #313131;  font-family: 'Source Sans Pro',Helvetica,Arial,sans-serif,Tahoma, Verdana, 'Microsoft YaHei', 微软雅黑; line-height: 1.4;  position: relative; width: 100%; margin: 0;}
 
 header, 
 section, 

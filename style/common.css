@@ -80,7 +80,7 @@ blockquote:before, blockquote:after, q:before, q:after {
 }
 body {
 	font-size: 12px;
-	font-family: Tahoma, Verdana, 微软雅黑;
+	font-family: Tahoma, Verdana, 'Microsoft YaHei', 微软雅黑;
 	color: #000;
 	background-color: #fff
 }

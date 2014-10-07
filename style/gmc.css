@@ -1,3 +1,4 @@
+body { font-family: Tahoma, Verdana, 'Microsoft YaHei', 微软雅黑;}
 .main { width: 60%; margin: 0 auto; text-align: center}
 .main h2 { font-size: 40px; color: gray; padding-top: 60px}
 
@@ -118,7 +119,7 @@ p.line-right {
 
 #people { position: relative; text-align: center;}
 #people h1 { text-align: center; color: #3a6bcc; width: auto; background-color: white}
-#people ul { margin-top: 20px;}
+#people ul { padding-top: 50px;}
 #people ul li{
 	list-style: none;
 	float: left;
@@ -129,15 +130,17 @@ p.line-right {
 #people a>span { line-height: 50px; color: gray; font-size: 14px}
 
 #comment {
+	width: 100%;
 	padding: 30px 40px;
 	margin: 50px 0 0 0;
 	float: left;
 	border: 2px solid #b4b7c3;
 	text-align: left;
+	background-color: white;
 }
 #comment img { float: left;}
 #comment p { margin-bottom: 10px; text-indent: 2em;}
-#comment span { font-size: 16px; line-height: 20px; color: #3a6bcc; margin-left: 5px;}
+#comment span { font-size: 20px; line-height: 20px; color: #3a6bcc; margin-left: 5px;}
 img.angle { position: absolute; z-index: 100;}
 
 #wenjiabao { text-align: left; position: relative}
