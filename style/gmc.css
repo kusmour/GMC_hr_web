@@ -62,24 +62,24 @@ body { font-family: Tahoma, Verdana, 'Microsoft YaHei', 微软雅黑;}
 
 .content { margin: 50px 0; width: 100%;}
 .content h1 { font-size: 40px; font-weight: bold}
-.content p { font-size: 14px; line-height: 20px}
+.content p { font-size: 14px; line-height: 25px}
 .content div { padding-left: 20%; padding-right: 20%; margin-top: 80px;}
 
 #about-gmc { background-color: #868686; color: white; padding-top: 50px; padding-bottom: 50px;}
-#about-gmc p { margin-top: 10px}
+#about-gmc p { margin-top: 10px;}
 
 #products { text-align: center; position: relative}
 #products h1 { color: #3a6bcc; width: auto; background-color: white}
 
 p.line-left {
 	position: absolute;
-	top: 45px;
+	top: 30px;
 	width: 20%;
 	border-bottom: 1px solid gray;
 }
 p.line-right {
 	position: absolute;
-	top: 45px;
+	top: 30px;
 	right: 20%;
 	width: 20%;
 	border-bottom: 1px solid gray;
@@ -130,7 +130,7 @@ p.line-right {
 #people a>span { line-height: 50px; color: gray; font-size: 14px}
 
 #comment {
-	width: 100%;
+	width: 90%;
 	padding: 30px 40px;
 	margin: 50px 0 0 0;
 	float: left;

@@ -37,3 +37,21 @@ $(window).load( function() {
 		$("#" + $current).fadeOut();
 	})
 });
+
+$( function() {
+	$(".nav-box a").click( function() {
+		var target = $(this).attr("href");
+		$(".hide").hide("fast");
+		$("#" + target).show("normal");
+		return false;
+	});
+});
+
+$( function() {
+	$("#qa a").click( function() {
+		var target = $(this).attr("href");
+		$(".answer").hide("fast");
+		$("#" + target).show("normal");
+		return false;
+	});
+});
