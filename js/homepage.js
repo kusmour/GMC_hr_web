@@ -41,8 +41,12 @@ $(window).load( function() {
 $( function() {
 	$(".nav-box a").click( function() {
 		var target = $(this).attr("href");
-		$(".hide").hide("fast");
-		$("#" + target).show("normal");
+		if ($("#" + target).is(":hidden")) {
+			$(".hide").hide("fast");
+			$("#" + target).show("normal");
+		} else {
+			$(".hide").hide("fast");
+		}
 		return false;
 	});
 });
