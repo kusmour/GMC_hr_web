@@ -1,0 +1,53 @@
+.border { margin: 0; background-color: #e6ebfd; border-left: 30px solid #2b428c; border-right: 30px solid #2b428c;}
+
+.main { width: 60%; margin: 0 auto; text-align: center;}
+h1 { font-size: 40px; font-weight: bold}
+h2 { font-size: 24px;}
+p { font-size: 14px; line-height: 20px}
+
+.banner {
+	width: 100%;
+	margin: 0px auto;
+	height: 285px;
+	background: url("../images/banner-gtc.png") no-repeat top center;
+	overflow: hidden;
+}
+
+#about-gtc { background-color: #e4e4e4; padding: 0 30px; margin-top: 0;}
+#about-gtc ul { margin: 0px auto; width: 60%; padding: 0;}
+#about-gtc ul li{
+	list-style: none;
+	float: left;
+	position: relative;
+	text-align: left;
+}
+#about-gtc li { width: 29.33%; margin: 0; padding: 50px 2%;}
+#about-gtc h2 { color: #2c4ccb;}
+#about-gtc p { margin-top: 20px; text-indent: 2em;}
+#about-gtc li:first-child { background-color: #2b428c; color: white;}
+#about-gtc li:nth-child(3) { background-color: white;}
+
+#partner { margin-top: 50px;}
+#partner h1 { color: #2b428c;}
+#partner h2 { color: #8b8b8b;}
+#partner ul li{
+	list-style: none;
+	float: left;
+	text-align: center;
+}
+#partner li { width: 29.33%; height: 100%; margin: 0; padding: 50px 2%;}
+#partner h3 { color: #2b428c; font-size: 18px; padding-top: 20px;}
+#partner span { color: gray; font-size: 12px}
+
+#gtc2015 { padding: 60px 0;}
+#gtc2015 ul { margin: 0px auto; padding: 0;}
+#gtc2015 ul li{
+	list-style: none;
+	float: left;
+	position: relative;
+	text-align: left;
+}
+#gtc2015 li { width: 24%; margin: 20px 0.5%; padding: 0; background-color: white;}
+#gtc2015 h3 { color: #2b428c; font-size: 14px; padding: 10px 5px 0 5px;}
+#gtc2015 p { font-size: 12px; padding: 8px 5px 10px 5px;}
+#gtc2015 img { width: 100%;}
